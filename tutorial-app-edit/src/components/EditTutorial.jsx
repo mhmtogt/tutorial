@@ -25,7 +25,7 @@ const EditTutorial = ({ editData, getTutorials }) => {
 
   const editTutorial = async (tutorial) => {
     try {
-      await axios.put(`${process.env.REACT_APP_URL}${id}/`, tutorial);// delete ve edit işlemlerinde İD ye istek atılır
+      await axios.put(`${process.env.REACT_APP_URL}${id}/`, tutorial);// delete ve edit işlemlerinde İD ye istek atılır 
       getTutorials();
     } catch (error) {
       console.log(error);
