@@ -13,6 +13,7 @@ const AddTutorial = ({ getTutorials }) => {
     setTitle("")
     setDescription("")
   }
+  // bu bir tettir
 
   const postTutorial = async (newTutorial) => {
     try {
